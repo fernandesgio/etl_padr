@@ -1,0 +1,16 @@
+pandas
+openpyxl
+sqlalchemy
+psycopg2-binary   # (Instale apenas se for usar PostgreSQL)
+pymysql           # (Instale apenas se for usar MySQL)
+
+
+pip install pandas openpyxl sqlalchemy
+
+
+Guia Rápido: O que alterar quando você for usar no trabalho?
+Linha 66 (CAMINHO_DO_EXCEL): Mude para o nome/caminho onde o arquivo Excel da empresa está salvo.
+
+Linhas 28 a 38 (transformar_dados): Adicione ou remova regras de acordo com as colunas reais da planilha. Se a planilha tiver uma coluna chamada preço, garanta que você trate o nome dela ali!
+
+Linha 75 (STRING_CONEXAO): Peça para o pessoal do time o usuário, senha, IP (host) e porta do banco de dados deles e substitua no texto da conexão.
