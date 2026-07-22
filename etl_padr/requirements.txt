@@ -3,7 +3,7 @@ openpyxl
 sqlalchemy
 psycopg2-binary   # (Instale apenas se for usar PostgreSQL)
 pymysql           # (Instale apenas se for usar MySQL)
-
+schedule
 
 pip install pandas openpyxl sqlalchemy
 
