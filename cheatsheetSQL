@@ -1,0 +1,8 @@
+from sqlalchemy import create_engine
+
+# Criar conexão (PostgreSQL / MySQL / SQLite)
+engine = create_engine('postgresql://usuario:senha@localhost:5432/nome_do_banco')
+
+# Carga de dados (Load)
+df.to_sql('nome_da_tabela', con=engine, if_exists='append', index=False)
+# if_exists: 'fail' (erro se existir), 'replace' (apaga a tabela e cria de novo), 'append' (insere ao final)
