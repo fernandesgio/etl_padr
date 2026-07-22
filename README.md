@@ -1,10 +1,3 @@
-AQUI está um modelo de **`README.md`** completo, profissional e super bem estruturado para o seu repositório `ETL_PADR`!
-
-Ele explica a arquitetura, como instalar e como rodar o projeto. Basta criar o arquivo chamado `README.md` na raiz do seu projeto no VS Code e colar o conteúdo abaixo:
-
----
-
-```markdown
 # 🚀 ETL & Data Pipeline Standard (`ETL_PADR`)
 
 Este repositório contém uma estrutura padrão (**boilerplate**) para pipelines de **ETL (Extract, Transform, Load)** e **automação de processos de dados** utilizando Python. 
@@ -103,11 +96,3 @@ python src/pipeline.py
 ## 🛡️ Segurança e Boas Práticas
 
 Este projeto utiliza um arquivo `.gitignore` configurado para **impedir a inclusão acidental de credenciais sensíveis**, senhas de banco de dados, chaves de API e arquivos de dados corporativos reais no controle de versão do Git.
-
-```
-
----
-
-Agora seu repositório `ETL_PADR` está nível sênior! Manda bala no `git push`! 🚀🔥
-
-```

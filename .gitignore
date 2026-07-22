@@ -1,0 +1,43 @@
+# ==========================================
+# 🛑 ARQUIVOS E PASTAS SENSÍVEIS / DADOS
+# ==========================================
+# Ignora qualquer arquivo de banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignora planilhas e arquivos de dados (Evita vazar dados reais da empresa)
+*.xlsx
+*.xls
+*.csv
+*.json
+*.parquet
+dados/
+
+# Ignora arquivos de variáveis de ambiente (onde ficam senhas e chaves de API)
+.env
+.env.*
+
+# ==========================================
+# 🐍 PYTHON & AMBIENTE VIRTUAL
+# ==========================================
+# Ignora a pasta do ambiente virtual (venv)
+venv/
+env/
+ENV/
+.venv/
+
+# Ignora arquivos compilados e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# 💻 SISTEMA OPERACIONAL E IDEs
+# ==========================================
+# Configurações do VS Code
+.vscode/
+
+# Arquivos temporários do Windows e Mac
+Thumbs.db
+.DS_Store
