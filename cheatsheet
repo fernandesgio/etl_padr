@@ -1,0 +1,14 @@
+import pandas as pd
+
+# Ler arquivo
+df = pd.read_excel('dados.xlsx', sheet_name='Aba1')
+
+# Visualizar
+df.head()             # Primeiras 5 linhas
+df.info()             # Tipos de dados e nulos
+
+# Tratar e Limpar
+df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_') # Normaliza colunas (ex: " Nome " -> "nome")
+df = df.dropna(subset=['id_cliente']) # Remove linhas onde o ID é nulo
+df['valor'] = df['valor'].fillna(0)   # Preenche valores nulos com 0
+df['data'] = pd.to_datetime(df['data'], format='%d/%m/%Y') # Converte para data
